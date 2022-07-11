@@ -9,7 +9,7 @@
             <div class="spacing">
                 <i class="fa-solid fa-trash" @click="deleteProject"></i>
                 <router-link :to="{name:'editPage',params:{id:oneJob.id}}">
-                    <i class="fa-solid fa-edit"></i>
+                    <i class="fa-solid fa-edit"></i> 
                 </router-link>
                 
                 <span v-if="oneJob.complete==false" :class="{success:oneJob.complete==false}">
