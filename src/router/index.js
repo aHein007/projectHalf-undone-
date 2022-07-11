@@ -5,7 +5,7 @@ import AboutUs from "../views/AboutUs.vue"
 import ContactUs from "../views/ContactUs.vue"
 import LogOut from "../views/LogOut.vue"
 import EditPage from "../views/EditPage.vue"
-import NotFound from "../views/NotFound.vue"
+import NotFound from "../views/NotFound.vue"  
 
 const routes = [
   {
